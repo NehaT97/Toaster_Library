@@ -4,13 +4,14 @@ import android.content.Context
 import android.widget.Toast
 
 
-object MyFirstLibrary {
+object Toaster {
 
-
-        fun toastDummy(context: Context, msg:String){
-            Toast.makeText(context,msg,Toast.LENGTH_SHORT).show()
+        fun toastDummy(context: Context, msg: String) {
+            Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
         }
-    }
+
+
+}
 
 
 
