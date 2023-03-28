@@ -1,3 +1,5 @@
+package com.example.analyticsdemo
+
 import android.content.Context
 import android.widget.Toast
 
