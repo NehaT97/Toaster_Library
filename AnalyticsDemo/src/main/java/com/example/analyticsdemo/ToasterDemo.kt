@@ -6,11 +6,13 @@ import android.widget.Toast
 
 object ToasterDemo {
 
+
     fun toastDummy(context: Context, msg: String) {
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
     }
-}
 
+
+}
 
 
 
