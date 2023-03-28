@@ -1,9 +1,12 @@
-import android.util.Log
+import android.content.Context
 import android.widget.Toast
 
-object Toaster {
-    fun toast(){
 
-        Log.i("TEST","MEASSAGE")
-    }
+class MyFirstLibrary {
+
+
+   fun toastDummy(context: Context, msg:String){
+       Toast.makeText(context,msg,Toast.LENGTH_SHORT).show()
+   }
+
 }
