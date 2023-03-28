@@ -4,7 +4,7 @@ import android.content.Context
 import android.widget.Toast
 
 
-class ToasterDemo {
+object ToasterDemo {
 
     fun toastDummy(context: Context, msg: String) {
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()

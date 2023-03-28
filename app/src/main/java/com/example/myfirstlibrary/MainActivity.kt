@@ -7,7 +7,7 @@ import com.example.myfirstlibrary.R
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        ToasterDemo()
+        ToasterDemo
         setContentView(R.layout.activity_main)
     }
 }
